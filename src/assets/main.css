@@ -1,0 +1,22 @@
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.hero__content img{
+  animation: logo 1s linear forwards 0.5s;
+  transform: scale(0);
+}
+
+@keyframes logo {
+  0%{
+    transform: scale(0)
+  }
+  100% {
+    transform: scale(1)
+  }
+}
+
+
+
